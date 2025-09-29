@@ -1,0 +1,270 @@
+%-------------------------
+% Resume in Latex
+% Author : Rizwan
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape HARSHINI} \\ \vspace{1pt}
+    RAMAGUNDAM,TELANGANA \\ \vspace{1pt}
+  \small \href{tel:+917674914466}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-7674914466} ~} \href{mailto:imadabathuni3005@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{imadabathuni3005@gmail.com}} ~
+    \href{https://www.linkedin.com/in/imadabathuni-harshini-2782ab321}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{LinkedIn}}  ~
+    \href{https://github.com/harshini-imadabathuni}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \href{https://www.hackerrank.com/harshini-imadabathuni}{\raisebox{-0.2\height}\faHackerrank\ \underline{HackerRank}} ~
+    \href{https://codeforces.com/profile/harshini-imadabathuni}{\raisebox{-0.2\height}\faPoll\ \underline{Codeforces}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Marwadi University}{2022--2025}
+      {Bachelor of Technology in Computer Science and Engineering}{Rajkot, Gujarat, India}
+      \resumeItemListStart
+        \resumeItem{CGPA: 9.0/10.0}
+        \resumeItem{Relevant Coursework: Data Structures \& Algorithms, Database Management Systems, Object-Oriented Programming, Software Engineering, Computer Networks}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+ 
+
+
+    
+%-----------EXPERIENCE / PROJECTS-----------
+\section{Experience / Projects}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Smart India Hackathon Participant}{2025}
+    {Automated Student Attendance Monitoring and Analytics System for Colleges}{}
+    \resumeItemListStart
+      \resumeItem{Collaborated in a team to design and develop an AI-driven system for automated attendance monitoring and analytics.}
+      \resumeItem{Contributed to ideation, design, and problem-solving aspects of the project.}
+      \resumeItem{Utilized computer vision and machine learning algorithms for facial recognition-based attendance tracking.}
+      \resumeItem{Implemented data analytics dashboard for attendance insights and reporting.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{ACHIEVEMENTS}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Academic Excellence}{2022--2025}
+    {Marwadi University}{Rajkot, Gujarat}
+    \resumeItemListStart
+      \resumeItem{Maintained CGPA of 9.0/10.0 throughout the program}
+      \resumeItem{Active participant in coding competitions and hackathons}
+      \resumeItem{Contributed to open-source projects and technical communities}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{CERTIFICATIONS}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Programming \& Development}{2023--2024}
+    {Various Online Platforms}{}
+    \resumeItemListStart
+      \resumeItem{Python Programming Certification - Coursera/edX}
+      \resumeItem{Web Development Fundamentals - FreeCodeCamp}
+      \resumeItem{Data Structures and Algorithms - HackerRank}
+      \resumeItem{SQL Database Management - Udemy}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming Languages:}}{ \normalsize{Python, C, C++, SQL, Java, JavaScript}} \\
+     \textbf{\normalsize{Frameworks \& Libraries:}}{ \normalsize{React, Node.js, Express.js, Flask, Django}} \\
+     \textbf{\normalsize{Databases:}}{ \normalsize{MySQL, PostgreSQL, MongoDB, SQLite}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio, Git, GitHub, Docker}} \\
+     \textbf{\normalsize{AI/ML Tools:}}{ \normalsize{ChatGPT, Cursor AI, TensorFlow, Scikit-learn}} \\
+     \textbf{\normalsize{Operating Systems:}}{ \normalsize{Windows, Linux, macOS}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+
+
+\end{document}
